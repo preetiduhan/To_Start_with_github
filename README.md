@@ -13,7 +13,9 @@ Benefits:
 
 Why Git:
 -It is famous and it is used everywhere 😊
--We are moving to open source projects these days.So GIT is good platform where people can add there change set and then open source team can approve those changes and merge changeset to master branch.
+-We are moving to open source projects these days.So GIT is good platform where people can add their change set and then open source team can approve those changes and merge changeset to master branch.
 
 GIT use tree like structure.
- 
+1)git init
+2) git commit -m "your message"
+3) git push
