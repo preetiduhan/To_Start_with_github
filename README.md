@@ -8,6 +8,7 @@ $ python3 get-pip.py
 pip install tox
 ```
 
+How to use rsync for backup :
 ```
 Let's see how to copy files and create backups with rsync :
 1.	 To copy a source directory to a destination use:
