@@ -204,6 +204,8 @@ To insert two blank lines, do:
 
 Add an uppercase G separated by a semicolon if you want to add more blank lines. The following image illustrates the example outlined in this tip
 
+https://www.tecmint.com/linux-sed-command-tips-tricks/
+
 
 
 
