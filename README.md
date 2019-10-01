@@ -25,6 +25,13 @@ $ sudo add-apt-repository ppa:deadsnakes/ppa
 $ sudo apt-get update
 $ sudo apt-get install python3.6
 
+To install jupyter notebook:
+1)install pip3
+pip3 install --upgrade pip
+2)install python3
+sudo yum -y install python3
+3)sudo yum -y install jupyter
+4)jupyter notebook --allow-root
 
 ```
 
