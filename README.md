@@ -57,6 +57,9 @@ regular intervals. It will copy only changed files to the destination.
 $ rsync -av username@host:PATH destination```
 
 ```
+```to install mysql for python
+ pip install mysql-connector-python.```
+
 Every system administrator has to deal with plain text files on a daily basis. Knowing how to view certain sections, how to replace words, and how to filter content from those files are skills…
 
 Please note that the -i option indicate in-place editing. Then changes will not be returned to the screen, but will be saved to the file.
