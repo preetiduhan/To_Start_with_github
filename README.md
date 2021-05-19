@@ -1,4 +1,10 @@
 # daily notes
+Windows machine:
+ to check python version:
+ ```
+ py -3 --version
+ ```
+
 For installing pip on linux machine:
 ```
 $ curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
