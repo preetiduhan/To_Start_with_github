@@ -1,56 +1,35 @@
-Install Anaconda and Jupyter Notebook
+Installing Jupyter
 
-1. Open the Terminal program by going to “Show Applications” and selecting the Terminal.
+Please install Jupyter Notebook by executing one of the commands below:
 
-2. Type the commands in red to go to the Downloads directory and download Anaconda 5.2.0. Anaconda may take a few minutes to download.
-username@ubuntu:~$ cd Downloads
-username@ubuntu:~/Downloads$ wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+Installing Jupyter
 
-3. Type the command in red to install Anaconda.
-username@ubuntu:~/Downloads$ ﻿bash ./Anaconda3-2019.07-Linux-x86_64.sh
+pip3.10 install jupyter
 
-4. Press Enter to read the license agreement. Use Space to continue to the next page.
-Welcome to Anaconda3 2019.07
+or
 
-In order to continue the installation process, please review the license agreement.
-Please, press ENTER to continue
+pip3.9 install jupyter
 
-5. Type yes to accept the license terms.
-Do you approve the license terms? [yes|no]
-[no] >>> yes
+or
 
-6. Press Enter to install Anaconda to the default location.
-Anaconda will now be installed into this location:
-/home/username/anaconda3
+pip3.8 install jupyter
 
-- Press ENTER to confirm the location
-- Press CTRL-C to abort the installation
-- Or specify an different location below
-[/home/username/anaconda3] >>>
+Please change the number after pip to reflect the version of Python you are using.
 
-7. Type yes to have Anaconda update your PATH.
-installation finished.
-Do you wish the installer to initialize Anaconda3
-by running conda init? [yes|no]
-[no] >>> yes
+Starting Jupyter
 
-==> For changes to take effect, close and re-open your current shell. <==
+After a successful installation you can start Jupyter Notebook by running the command below from your terminal:
 
-If you'd prefer that conda's base environment not be activated on startup, set the auto_activate_base parameter to false:
+jupyter notebook
 
-conda config --set auto_activate_base false
+If the above command does not work try the following command:
 
-Thank you for installing Anaconda!
+py -3.9 -m jupyter notebook (for Windows users)
 
-8. Open a new Terminal window by going to “Show Applications” and selecting the Terminal.
+python3.9 -m jupyter notebook  (for Mac and Linux users)
 
-9. Type the command in red to verified Anaconda was installed.
-(base) username@ubuntu:~$ python --version
-Python 3.7.3
+If it works, you will see Jupyter Notebook opened up in your default internet browser.
 
-10. Type the command in red to update Anaconda.
-(base) username@ubuntu:~$ conda update --all --yes
-Start Jupyter Notebook
+Jupyter in the cloud
 
-1. Type the command in red to start Jupyter Notebook.
-username@ubuntu:~$ jupyter notebook 
+If you do not want to install Jupyter or you cannot install it, you can use Jupyter in the cloud. Google offers a ready-to-use Jupyter notebook here: https://colab.research.google.com/#create=true
